@@ -89,7 +89,16 @@ const SERVICES = {
   albato: {
     scriptUrl: 'https://script.google.com/macros/s/PLACEHOLDER_ALBATO/exec',
     envKey: 'ALBATO_API_KEY'
+  },
+
+'domain-vault-admin': {
+    scriptUrl: 'https://script.google.com/macros/s/YOUR_ACTUAL_ADMIN_ID_HERE/exec', // <-- Paste your Master Admin Apps Script URL here
+    envKey: 'DOMAIN_VAULT_ADMIN_API_KEY'
   }
+
+
+
+  
   // To add a new service later, just copy and paste an entry above!
 };
 
